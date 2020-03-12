@@ -1,0 +1,9 @@
+body .gform_wrapper ul li.gfield.gsection:not(:first-child) {
+	padding-top: 1.5rem;
+}
+
+/* prevent showing whitespace at bottom of pages using datepicker */
+.ui-datepicker {
+	position: absolute;
+	z-index: -1;
+}
